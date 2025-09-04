@@ -16,8 +16,9 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/black"
-            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" />
+            android:background="@color/white"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Dark"
+            app:titleTextColor="@android:color/black"/>
 
         <!-- Tabs below toolbar -->
         <com.google.android.material.tabs.TabLayout
@@ -48,6 +49,8 @@
         android:layout_margin="16dp"
         android:contentDescription="Add"
         android:src="@android:drawable/ic_input_add"
-        app:backgroundTint="@android:color/holo_red_dark" />
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:tint="@android:color/white"
+        app:fabSize="normal"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
