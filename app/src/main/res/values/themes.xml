@@ -3,10 +3,10 @@
     <style name="Base.Theme.PDFManagement" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-<!--        <item name="colorPrimary">@android:color/white</item>-->
-<!--        <item name="colorPrimaryVariant">@android:color/white</item>-->
-        <item name="android:statusBarColor">@android:color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryVariant">@android:color/white</item>
+<!--        <item name="android:statusBarColor">@android:color/white</item>-->
+<!--        <item name="android:windowLightStatusBar">true</item>-->
     </style>
 
     <style name="Theme.PDFManagement" parent="Base.Theme.PDFManagement" />
